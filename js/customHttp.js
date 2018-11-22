@@ -11,5 +11,5 @@ class CustomHttp {
         xhr.addEventListener('load', () => {
             callback(JSON.parse(xhr.responseText));
         });
-    }
+    };
 }
